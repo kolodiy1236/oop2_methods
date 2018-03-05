@@ -21,15 +21,15 @@ public class Point {
     public Point() {}
     
     //Конструктор с параметрами
-    public Point(int _x, int _y) throws Exception {
-        
-        //this.mX = _x;
-        if (_x > 0 && _y >= 0) {
-            mX = _x;
-            mY = _y;
-        } else {
-            throw new Exception("x and/or y < 0!");
-        }
+public Point(int _x, int _y) throws Exception {
+
+    //this.mX = _x;
+    if (_x > 0 && _y >= 0) {
+        mX = _x;
+        mY = _y;
+    } else {
+        throw new Exception("x and/or y < 0!");
+    }
         
         //int test = 0;
         //System.out.println(test);
